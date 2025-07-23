@@ -74,7 +74,7 @@
             c = a + b;
             Label1.Text = Convert.ToString(c);
         }
-  6. Write ASP.NET program that will take two int values &calculate a^b.
+6. Write ASP.NET program that will take two int values &calculate a^b.
   - Design:
   -        <form id="form1" runat="server">
              <div>
@@ -96,9 +96,9 @@
                     Label1.Text = TextBox1.Text + "^"+TextBox2.Text+" = "+ Convert.ToString(c);
             
                 }
-  7. Write ASP.NET program that will take 3 subject marks & find Total & Average.
-  - Design:
-  -         <div>
+7. Write ASP.NET program that will take 3 subject marks & find Total & Average.
+- Design:
+-         <div>
                 <asp:Label ID="Label1" runat="server" Text="Subject 1"></asp:Label>
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
                 
@@ -113,12 +113,12 @@
                 <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
-            </div>  
+          </div>  
 - Code:
 -      protected void Button1_Click(object sender, EventArgs e)
-    {
+        {
         int sum = int.Parse(TextBox1.Text) + int.Parse(TextBox2.Text) + int.Parse(TextBox3.Text);
         float avg = sum/3;
         Label4.Text = "sum = " + sum.ToString();
         Label5.Text = "Avg = " + avg.ToString();
-    }
+        }
