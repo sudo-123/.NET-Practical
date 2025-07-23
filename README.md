@@ -53,7 +53,7 @@
         {
             Label1.Text = TextBox1.Text + Textbox2.Text;
         }
-/* Take two int values and calculate addition.*/
+# Take two int values and calculate addition.
 - Design:
 -       <body>
         <form id="form1" runat="server">
