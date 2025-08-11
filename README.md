@@ -278,4 +278,4 @@
         --i;
         TextBox1.Text = i.ToString();
       }
- 
+12. write a asp.net webpage that will make student exam details from exam form and generate fee          reciept.  exam details : name , exam type year ,sem subjects fees. 
